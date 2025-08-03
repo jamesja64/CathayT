@@ -54,7 +54,7 @@ git branch -M main
 git push -u origin main
 
 if [ $? -eq 0 ]; then
-    echo "✅ 成功上傳到GitHub: https://github.com/jamesja64/CathayT"
+    echo "成功上傳到GitHub: https://github.com/jamesja64/CathayT"
     echo ""
     echo "專案包含:"
     echo "- 測試案例設計"
@@ -63,6 +63,6 @@ if [ $? -eq 0 ]; then
     echo "- 壓力測試腳本"
     echo "- 完整文檔"
 else
-    echo "❌ 上傳失敗"
+    echo "上傳失敗"
     echo "請檢查GitHub認證和網路連線"
 fi 

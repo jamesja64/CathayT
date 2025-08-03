@@ -115,9 +115,9 @@ export function handleSummary(data) {
   const responseTime = data.metrics.http_req_duration.values['p(95)'];
   
   console.log('\n=== 驗收標準檢查 ===');
-  console.log('TPS > 5:', tps > 5 ? '✅ 通過' : '❌ 失敗');
-  console.log('錯誤率 < 1%:', errorRate < 0.01 ? '✅ 通過' : '❌ 失敗');
-  console.log('回應時間 < 500ms:', responseTime < 500 ? '✅ 通過' : '❌ 失敗');
+  console.log('TPS > 5:', tps > 5 ? '通過' : '失敗');
+  console.log('錯誤率 < 1%:', errorRate < 0.01 ? '通過' : '失敗');
+  console.log('回應時間 < 500ms:', responseTime < 500 ? '通過' : '失敗');
   
   return {
     'stdout': JSON.stringify(data, null, 2),

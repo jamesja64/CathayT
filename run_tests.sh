@@ -28,9 +28,9 @@ pytest test_api_automation.py -v --html=reports/report.html --self-contained-htm
 
 # 檢查測試結果
 if [ $? -eq 0 ]; then
-    echo "✅ 自動化測試完成"
+    echo "自動化測試完成"
 else
-    echo "❌ 自動化測試失敗"
+    echo "自動化測試失敗"
 fi
 
 # 回到根目錄

@@ -2,7 +2,7 @@
 
 ## 專案完成狀況
 
-### ✅ 已完成項目
+###  已完成項目
 
 #### 1. API測試案例設計
 - **文件**: `test_cases/API_Test_Cases.csv`
@@ -27,7 +27,7 @@
 - **主要腳本**: `automation/test_api_automation.py`
 - **配置**: `automation/conftest.py`
 - **依賴**: `automation/requirements.txt`
-- **測試結果**: ✅ 13個測試案例全部通過
+- **測試結果**:  13個測試案例全部通過
 - **報告**: `automation/reports/report.html`
 
 #### 4. 壓力測試
@@ -47,22 +47,22 @@
 ## 測試覆蓋範圍
 
 ### 功能測試
-- ✅ GET /products - 基本查詢
-- ✅ GET /products - 價格範圍篩選
-- ✅ GET /products - 排序和分頁
-- ✅ GET /products/{id} - 單一產品查詢
-- ✅ POST /messages - 訊息發送
-- ✅ 錯誤處理和邊界條件
+-  GET /products - 基本查詢
+-  GET /products - 價格範圍篩選
+-  GET /products - 排序和分頁
+-  GET /products/{id} - 單一產品查詢
+-  POST /messages - 訊息發送
+-  錯誤處理和邊界條件
 
 ### 效能測試
-- ✅ 回應時間測試 (< 500ms)
-- ✅ 並發請求測試 (5個同時請求)
-- ✅ 壓力測試 (K6腳本)
+-  回應時間測試 (< 500ms)
+-  並發請求測試 (5個同時請求)
+-  壓力測試 (K6腳本)
 
 ### 安全性測試
-- ✅ 輸入驗證
-- ✅ 特殊字符處理
-- ✅ 無效資料處理
+-  輸入驗證
+-  特殊字符處理
+-  無效資料處理
 
 ## 技術棧
 
@@ -124,12 +124,10 @@
 
 ## 結論
 
-本專案成功完成了面試題目的所有要求：
-- ✅ API測試案例設計 (Excel/CSV格式)
-- ✅ Postman測試集合
-- ✅ Python自動化測試腳本
-- ✅ 壓力測試腳本和計畫
-- ✅ 圖形化測試報告
-- ✅ 完整文檔和執行腳本
-
-專案已準備好上傳到GitHub並設為公開可見。 
+本專案成功完成了所有要求：
+-  API測試案例設計 (Excel/CSV格式)
+-  Postman測試集合
+-  Python自動化測試腳本
+-  壓力測試腳本和計畫
+-  圖形化測試報告
+-  完整文檔和執行腳本
